@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .container-fullwidth {
+      background-image: url("https://images.pexels.com/photos/310983/pexels-photo-310983.jpeg?cs=srgb&dl=man-riding-bicycle-on-city-street-310983.jpg&fm=jpg");
+      background-size: cover;
+      background-position: center;
+
+  }
+
+  .banner {
+      height: 500px;
+      position: relative;
+  }
+
+  .banner img {
+      padding: 15px;
+  }
+
+  .claim {
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 50%;
+  }
+
+  .card-container {
+      padding-top: 50px;
+      max-width:1200px;
+      margin: 0 auto;
+
+  }
+
+  .card {
+      background-color:#fafafa;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  .card a {
+      display: block;
+  }
+
+  .card > img {
+      max-width: 200px;
+
+  }
